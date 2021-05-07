@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835035302219",
+    "project_id": "donnet-79836",
+    "storage_bucket": "donnet-79836.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835035302219:android:17c9f2ac511146cb2ec0ce",
+        "android_client_info": {
+          "package_name": "com.example.donnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835035302219-u5hskbuo0ed3cosf6edqn6vrglv579fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3c-oH1Rl6IwFAoa8Y_9aF_EBnwftkTgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835035302219-u5hskbuo0ed3cosf6edqn6vrglv579fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

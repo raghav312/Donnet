@@ -7,5 +7,22 @@
     android:orientation="vertical"
     tools:context=".activities.FindActivity">
 
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/donor_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textCursorDrawable="@color/blood_red"
+        app:iconifiedByDefault="false"
+        app:queryBackground="@null" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:scrollbars="vertical" />
+
 
 </LinearLayout>

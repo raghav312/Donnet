@@ -7,6 +7,166 @@
     android:orientation="vertical"
     tools:context=".activities.DonateRegister">
 
-    
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_dreg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/blood_red"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register yourself on Donnet"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+        />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/dark_grey"
+        android:hint="Name:"
+        android:layout_gravity="center"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tinDonorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/dark_grey"
+        android:hint="Phone Number:"
+        android:layout_gravity="center"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tinDonorNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:inputType="number"
+            android:maxLength="10"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/dark_grey"
+        android:hint="Age:"
+        android:layout_gravity="center"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tinDonorAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/dark_grey"
+        android:hint="Blood type:"
+        android:layout_gravity="center"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tinDonorBloodtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/btnDonnorCurrLoc"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/item_ripple_btn_auth_bg"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:lineSpacingExtra="8sp"
+            android:text="Select current Location"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/btnDonnorRegister"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/item_ripple_btn_auth_bg"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true">
+
+    <TextView
+
+        android:letterSpacing="0.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    </LinearLayout>
+
+
+
+
     
 </LinearLayout>
